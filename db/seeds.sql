@@ -1,4 +1,3 @@
-
 INSERT INTO parties (name, description)
 VALUES
   ('JS Juggernauts', 'The JS Juggernauts eat, breathe, and sleep JavaScript. They can build everything you could ever want in JS, including a new kitchen sink.'),
@@ -70,3 +69,36 @@ VALUES
   ('Hubert', 'Crackanthorpe', 'hcrackan@goodletters.com'),
   ('William', 'Carleton', 'wcarleton@literature.com'),
   ('Gerald', 'Griffin', 'ggriff@lit.net');
+
+INSERT INTO votes (voter_id, candidate_id) 
+VALUES
+  (1, 1),
+  (2, 1),
+  (3, 1), 
+  (4, 2), 
+  (5, 2), 
+  (6, 2), 
+  (7, 2), 
+  (8, 3), 
+  (9, 3),
+  (10, 4),
+  (11, 4),
+  (12, 5),
+  (13, 5),
+  (14, 5),
+  (15, 5),
+  (16, 5),
+  (17, 5),
+  (18, 5),
+  (19, 5),
+  (20, 6),
+  (21, 6),
+  (22, 7),
+  (23, 8),
+  (24, 9),
+  (25, 10),
+  (26, 10),
+  (27, 9),
+  (28, 1),
+  (29, 3),
+  (30, 5);
